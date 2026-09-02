@@ -1,0 +1,26 @@
+{
+  "lessonId": 181928,
+  "title": "이어 붙인 수",
+  "type": "function",
+  "signature": [
+    "num_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[3, 4, 5, 2, 1]"
+      ],
+      "expected": "393",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[5, 7, 8, 3]"
+      ],
+      "expected": "581",
+      "source": "official"
+    }
+  ]
+}

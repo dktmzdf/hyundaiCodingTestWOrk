@@ -1,0 +1,20 @@
+{
+  "lessonId": 181926,
+  "title": "수 조작하기 1",
+  "type": "function",
+  "signature": [
+    "n",
+    "control"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "0",
+        "\"wsdawsdassw\""
+      ],
+      "expected": "-1",
+      "source": "official"
+    }
+  ]
+}

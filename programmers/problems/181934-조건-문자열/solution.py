@@ -1,4 +1,8 @@
 def solution(ineq, eq, n, m):
-    answer = 0
-
-    return answer
+   conditions = {
+        (">", "="): n >= m,
+        ("<", "="): n <= m,
+        (">", "!"): n > m,
+        ("<", "!"): n < m,
+    }
+   return 1 if conditions[(ineq, eq)] else 0

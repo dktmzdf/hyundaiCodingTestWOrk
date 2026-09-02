@@ -1,0 +1,26 @@
+{
+  "lessonId": 181932,
+  "title": "코드 처리하기",
+  "type": "function",
+  "signature": [
+    "code"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"abc1abc1abc\""
+      ],
+      "expected": "\"acbac\"",
+      "source": "official"
+    },
+    {
+      "name": "내 케이스 1",
+      "source": "user",
+      "args": [
+        "\"a111b11c\""
+      ],
+      "expected": "\"ac\""
+    }
+  ]
+}

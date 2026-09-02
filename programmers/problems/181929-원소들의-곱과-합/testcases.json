@@ -1,0 +1,26 @@
+{
+  "lessonId": 181929,
+  "title": "원소들의 곱과 합",
+  "type": "function",
+  "signature": [
+    "num_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[3, 4, 5, 2, 1]"
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[5, 7, 8, 3]"
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}
