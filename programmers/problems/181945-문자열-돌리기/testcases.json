@@ -1,0 +1,13 @@
+{
+  "lessonId": 181945,
+  "title": "문자열 돌리기",
+  "type": "stdio",
+  "cases": [
+    {
+      "name": "예제 1",
+      "input": "abcde",
+      "expected": "a\nb\nc\nd\ne",
+      "source": "official"
+    }
+  ]
+}

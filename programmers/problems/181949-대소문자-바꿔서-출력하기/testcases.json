@@ -1,0 +1,13 @@
+{
+  "lessonId": 181949,
+  "title": "대소문자 바꿔서 출력하기",
+  "type": "stdio",
+  "cases": [
+    {
+      "name": "예제 1",
+      "input": "aBcDeFg",
+      "expected": "AbCdEfG",
+      "source": "official"
+    }
+  ]
+}

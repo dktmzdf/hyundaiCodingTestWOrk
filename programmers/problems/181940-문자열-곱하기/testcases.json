@@ -1,0 +1,29 @@
+{
+  "lessonId": 181940,
+  "title": "문자열 곱하기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "k"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"string\"",
+        "3"
+      ],
+      "expected": "\"stringstringstring\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"love\"",
+        "10"
+      ],
+      "expected": "\"lovelovelovelovelovelovelovelovelovelove\"",
+      "source": "official"
+    }
+  ]
+}

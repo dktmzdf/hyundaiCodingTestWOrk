@@ -1,0 +1,25 @@
+{
+  "lessonId": 181946,
+  "title": "문자열 붙여서 출력하기",
+  "type": "stdio",
+  "cases": [
+    {
+      "name": "예제 1",
+      "input": "apple pen",
+      "expected": "applepen",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "input": "Hello World!",
+      "expected": "HelloWorld!",
+      "source": "official"
+    },
+    {
+      "name": "내 케이스 1",
+      "input": "ai service",
+      "expected": "aiservice",
+      "source": "user"
+    }
+  ]
+}

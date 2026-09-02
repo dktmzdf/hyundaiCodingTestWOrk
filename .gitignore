@@ -1,3 +1,11 @@
 # 별도 저장소로 관리 중
-programmers/
 Programemers_ssss/
+
+# programmers는 각 문제 폴더의 solution.py / testcases.json만 추적
+programmers/*
+!programmers/problems/
+programmers/problems/*
+!programmers/problems/*/
+programmers/problems/*/*
+!programmers/problems/*/solution.py
+!programmers/problems/*/testcases.json

@@ -1,0 +1,29 @@
+{
+  "lessonId": 181937,
+  "title": "n의 배수",
+  "type": "function",
+  "signature": [
+    "num",
+    "n"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "98",
+        "2"
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "34",
+        "3"
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}

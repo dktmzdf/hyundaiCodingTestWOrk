@@ -1,0 +1,19 @@
+{
+  "lessonId": 181944,
+  "title": "홀짝 구분하기",
+  "type": "stdio",
+  "cases": [
+    {
+      "name": "예제 1",
+      "input": "100",
+      "expected": "100 is even",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "input": "1",
+      "expected": "1 is odd",
+      "source": "official"
+    }
+  ]
+}

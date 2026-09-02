@@ -1,0 +1,35 @@
+{
+  "lessonId": 181934,
+  "title": "조건 문자열",
+  "type": "function",
+  "signature": [
+    "ineq",
+    "eq",
+    "n",
+    "m"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"<\"",
+        "\"=\"",
+        "20",
+        "50"
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\">\"",
+        "\"!\"",
+        "41",
+        "78"
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}

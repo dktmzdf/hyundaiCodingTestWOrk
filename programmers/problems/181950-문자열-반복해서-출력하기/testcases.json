@@ -1,0 +1,13 @@
+{
+  "lessonId": 181950,
+  "title": "문자열 반복해서 출력하기",
+  "type": "stdio",
+  "cases": [
+    {
+      "name": "예제 1",
+      "input": "string 5",
+      "expected": "stringstringstringstringstring",
+      "source": "official"
+    }
+  ]
+}

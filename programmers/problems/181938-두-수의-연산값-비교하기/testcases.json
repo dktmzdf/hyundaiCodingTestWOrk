@@ -1,0 +1,29 @@
+{
+  "lessonId": 181938,
+  "title": "두 수의 연산값 비교하기",
+  "type": "function",
+  "signature": [
+    "a",
+    "b"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "2",
+        "91"
+      ],
+      "expected": "364",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "91",
+        "2"
+      ],
+      "expected": "912",
+      "source": "official"
+    }
+  ]
+}

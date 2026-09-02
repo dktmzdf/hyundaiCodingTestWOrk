@@ -1,0 +1,42 @@
+{
+  "lessonId": 181943,
+  "title": "문자열 겹쳐쓰기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "overwrite_string",
+    "s"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"He11oWor1d\"",
+        "\"lloWorl\"",
+        "2"
+      ],
+      "expected": "\"HelloWorld\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"Program29b8UYP\"",
+        "\"merS123\"",
+        "7"
+      ],
+      "expected": "\"ProgrammerS123\"",
+      "source": "official"
+    },
+    {
+      "name": "내 케이스 1",
+      "source": "user",
+      "args": [
+        "\"h111o\"",
+        "\"ell\"",
+        "1"
+      ],
+      "expected": "\"hello\""
+    }
+  ]
+}

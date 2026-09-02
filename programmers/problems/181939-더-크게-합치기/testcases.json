@@ -1,0 +1,29 @@
+{
+  "lessonId": 181939,
+  "title": "더 크게 합치기",
+  "type": "function",
+  "signature": [
+    "a",
+    "b"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "9",
+        "91"
+      ],
+      "expected": "991",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "89",
+        "8"
+      ],
+      "expected": "898",
+      "source": "official"
+    }
+  ]
+}

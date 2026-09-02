@@ -1,0 +1,32 @@
+{
+  "lessonId": 181936,
+  "title": "공배수",
+  "type": "function",
+  "signature": [
+    "number",
+    "n",
+    "m"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "60",
+        "2",
+        "3"
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "55",
+        "10",
+        "5"
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}

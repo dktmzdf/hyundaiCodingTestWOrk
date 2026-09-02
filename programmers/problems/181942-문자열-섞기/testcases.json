@@ -1,0 +1,20 @@
+{
+  "lessonId": 181942,
+  "title": "문자열 섞기",
+  "type": "function",
+  "signature": [
+    "str1",
+    "str2"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"aaaaa\"",
+        "\"bbbbb\""
+      ],
+      "expected": "\"ababababab\"",
+      "source": "official"
+    }
+  ]
+}
