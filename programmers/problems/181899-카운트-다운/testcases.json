@@ -1,0 +1,20 @@
+{
+  "lessonId": 181899,
+  "title": "카운트 다운",
+  "type": "function",
+  "signature": [
+    "start_num",
+    "end_num"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "10",
+        "3"
+      ],
+      "expected": "[10, 9, 8, 7, 6, 5, 4, 3]",
+      "source": "official"
+    }
+  ]
+}

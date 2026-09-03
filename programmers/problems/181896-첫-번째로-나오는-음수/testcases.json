@@ -1,0 +1,26 @@
+{
+  "lessonId": 181896,
+  "title": "첫 번째로 나오는 음수",
+  "type": "function",
+  "signature": [
+    "num_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[12, 4, 15, 46, 38, -2, 15]"
+      ],
+      "expected": "5",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[13, 22, 53, 24, 15, 6]"
+      ],
+      "expected": "-1",
+      "source": "official"
+    }
+  ]
+}

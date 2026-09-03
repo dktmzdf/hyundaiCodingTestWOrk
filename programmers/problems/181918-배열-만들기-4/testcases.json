@@ -1,0 +1,63 @@
+{
+  "lessonId": 181918,
+  "title": "배열 만들기 4",
+  "type": "function",
+  "signature": [
+    "arr"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[1, 4, 2, 5, 3]"
+      ],
+      "expected": "[1, 2, 3]",
+      "source": "official"
+    },
+    {
+      "name": "단일 원소",
+      "why": "배열 길이가 1인 최소 크기 경계 케이스",
+      "args": [
+        "[5]"
+      ],
+      "expected": "[5]",
+      "source": "ai"
+    },
+    {
+      "name": "오름차순 정렬됨",
+      "why": "모든 원소가 계속 push만 되는 경우",
+      "args": [
+        "[1, 2, 3]"
+      ],
+      "expected": "[1, 2, 3]",
+      "source": "ai"
+    },
+    {
+      "name": "내림차순 정렬됨",
+      "why": "역순 배열에서 pop이 반복되는 경우",
+      "args": [
+        "[5, 4, 3, 2, 1]"
+      ],
+      "expected": "[1]",
+      "source": "ai"
+    },
+    {
+      "name": "모두 동일한 값",
+      "why": "중복 값이 연속될 때 마지막 원소 이상 조건으로 계속 pop되는 경우",
+      "args": [
+        "[3, 3, 3]"
+      ],
+      "expected": "[3]",
+      "source": "ai"
+    },
+    {
+      "name": "pop 후 재삽입",
+      "why": "pop이 발생한 뒤 다시 push가 이어지는 혼합 패턴 검증",
+      "args": [
+        "[2, 1, 1, 2]"
+      ],
+      "expected": "[1, 2]",
+      "source": "ai"
+    }
+  ]
+}

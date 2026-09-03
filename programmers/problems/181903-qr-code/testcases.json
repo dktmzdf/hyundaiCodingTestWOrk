@@ -1,0 +1,32 @@
+{
+  "lessonId": 181903,
+  "title": "qr code",
+  "type": "function",
+  "signature": [
+    "q",
+    "r",
+    "code"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "3",
+        "1",
+        "\"qjnwezgrpirldywt\""
+      ],
+      "expected": "\"jerry\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "1",
+        "0",
+        "\"programmers\""
+      ],
+      "expected": "\"programmers\"",
+      "source": "official"
+    }
+  ]
+}

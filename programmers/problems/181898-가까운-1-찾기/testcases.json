@@ -1,0 +1,38 @@
+{
+  "lessonId": 181898,
+  "title": "가까운 1 찾기",
+  "type": "function",
+  "signature": [
+    "arr",
+    "idx"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[0, 0, 0, 1]",
+        "1"
+      ],
+      "expected": "3",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[1, 0, 0, 1, 0, 0]",
+        "4"
+      ],
+      "expected": "-1",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "[1, 1, 1, 1, 0]",
+        "3"
+      ],
+      "expected": "3",
+      "source": "official"
+    }
+  ]
+}

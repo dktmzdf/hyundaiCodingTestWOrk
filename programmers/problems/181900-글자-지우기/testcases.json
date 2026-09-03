@@ -1,0 +1,20 @@
+{
+  "lessonId": 181900,
+  "title": "글자 지우기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "indices"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"apporoograpemmemprs\"",
+        "[1, 16, 6, 15, 0, 10, 11, 3]"
+      ],
+      "expected": "\"programmers\"",
+      "source": "official"
+    }
+  ]
+}

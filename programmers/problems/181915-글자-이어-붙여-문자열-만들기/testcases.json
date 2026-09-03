@@ -1,0 +1,29 @@
+{
+  "lessonId": 181915,
+  "title": "글자 이어 붙여 문자열 만들기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "index_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"cvsgiorszzzmrpaqpe\"",
+        "[16, 6, 5, 3, 12, 14, 11, 11, 17, 12, 7]"
+      ],
+      "expected": "\"programmers\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"zpiaz\"",
+        "[1, 2, 0, 0, 3]"
+      ],
+      "expected": "\"pizza\"",
+      "source": "official"
+    }
+  ]
+}

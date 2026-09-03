@@ -1,0 +1,32 @@
+{
+  "lessonId": 181897,
+  "title": "리스트 자르기",
+  "type": "function",
+  "signature": [
+    "n",
+    "slicer",
+    "num_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "3",
+        "[1, 5, 2]",
+        "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      ],
+      "expected": "[2, 3, 4, 5, 6]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "4",
+        "[1, 5, 2]",
+        "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+      ],
+      "expected": "[2, 4, 6]",
+      "source": "official"
+    }
+  ]
+}

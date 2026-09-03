@@ -1,0 +1,47 @@
+{
+  "lessonId": 181908,
+  "title": "접미사인지 확인하기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "is_suffix"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"banana\"",
+        "\"ana\""
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"banana\"",
+        "\"nan\""
+      ],
+      "expected": "0",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "\"banana\"",
+        "\"wxyz\""
+      ],
+      "expected": "0",
+      "source": "official"
+    },
+    {
+      "name": "예제 4",
+      "args": [
+        "\"banana\"",
+        "\"abanana\""
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}

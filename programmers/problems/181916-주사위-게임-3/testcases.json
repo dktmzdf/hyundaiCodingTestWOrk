@@ -1,0 +1,68 @@
+{
+  "lessonId": 181916,
+  "title": "주사위 게임 3",
+  "type": "function",
+  "signature": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "expected": "2222",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "4",
+        "1",
+        "4",
+        "4"
+      ],
+      "expected": "1681",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "6",
+        "3",
+        "3",
+        "6"
+      ],
+      "expected": "27",
+      "source": "official"
+    },
+    {
+      "name": "예제 4",
+      "args": [
+        "2",
+        "5",
+        "2",
+        "6"
+      ],
+      "expected": "30",
+      "source": "official"
+    },
+    {
+      "name": "예제 5",
+      "args": [
+        "6",
+        "4",
+        "2",
+        "5"
+      ],
+      "expected": "2",
+      "source": "official"
+    }
+  ]
+}

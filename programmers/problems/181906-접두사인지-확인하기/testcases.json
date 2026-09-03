@@ -1,0 +1,47 @@
+{
+  "lessonId": 181906,
+  "title": "접두사인지 확인하기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "is_prefix"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"banana\"",
+        "\"ban\""
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"banana\"",
+        "\"nan\""
+      ],
+      "expected": "0",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "\"banana\"",
+        "\"abcd\""
+      ],
+      "expected": "0",
+      "source": "official"
+    },
+    {
+      "name": "예제 4",
+      "args": [
+        "\"banana\"",
+        "\"bananan\""
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}

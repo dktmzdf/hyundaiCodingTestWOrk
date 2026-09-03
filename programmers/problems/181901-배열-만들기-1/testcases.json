@@ -1,0 +1,29 @@
+{
+  "lessonId": 181901,
+  "title": "배열 만들기 1",
+  "type": "function",
+  "signature": [
+    "n",
+    "k"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "10",
+        "3"
+      ],
+      "expected": "[3, 6, 9]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "15",
+        "5"
+      ],
+      "expected": "[5, 10, 15]",
+      "source": "official"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "lessonId": 181904,
+  "title": "세로 읽기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "m",
+    "c"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"ihrhbakrfpndopljhygc\"",
+        "4",
+        "2"
+      ],
+      "expected": "\"happy\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"programmers\"",
+        "1",
+        "1"
+      ],
+      "expected": "\"programmers\"",
+      "source": "official"
+    }
+  ]
+}

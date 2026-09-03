@@ -1,0 +1,32 @@
+{
+  "lessonId": 181905,
+  "title": "문자열 뒤집기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "s",
+    "e"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"Progra21Sremm3\"",
+        "6",
+        "12"
+      ],
+      "expected": "\"ProgrammerS123\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"Stanley1yelnatS\"",
+        "4",
+        "10"
+      ],
+      "expected": "\"Stanley1yelnatS\"",
+      "source": "official"
+    }
+  ]
+}

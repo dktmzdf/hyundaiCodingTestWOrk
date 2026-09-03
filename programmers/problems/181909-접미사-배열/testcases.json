@@ -1,0 +1,26 @@
+{
+  "lessonId": 181909,
+  "title": "접미사 배열",
+  "type": "function",
+  "signature": [
+    "my_string"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"banana\""
+      ],
+      "expected": "[\"a\", \"ana\", \"anana\", \"banana\", \"na\", \"nana\"]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"programmers\""
+      ],
+      "expected": "[\"ammers\", \"ers\", \"grammers\", \"mers\", \"mmers\", \"ogrammers\", \"programmers\", \"rammers\", \"rogrammers\", \"rs\", \"s\"]",
+      "source": "official"
+    }
+  ]
+}
