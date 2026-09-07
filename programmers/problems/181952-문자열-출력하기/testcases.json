@@ -1,0 +1,13 @@
+{
+  "lessonId": 181952,
+  "title": "문자열 출력하기",
+  "type": "stdio",
+  "cases": [
+    {
+      "name": "예제 1",
+      "input": "HelloWorld!",
+      "expected": "HelloWorld!",
+      "source": "official"
+    }
+  ]
+}
