@@ -1,0 +1,18 @@
+{
+  "lessonId": 181941,
+  "title": "문자 리스트를 문자열로 변환하기",
+  "type": "function",
+  "signature": [
+    "arr"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[\"a\",\"b\",\"c\"]"
+      ],
+      "expected": "\"abc\"",
+      "source": "official"
+    }
+  ]
+}
