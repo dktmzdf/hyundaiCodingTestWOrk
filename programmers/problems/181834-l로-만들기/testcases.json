@@ -1,0 +1,26 @@
+{
+  "lessonId": 181834,
+  "title": "l로 만들기",
+  "type": "function",
+  "signature": [
+    "myString"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"abcdevwxyz\""
+      ],
+      "expected": "\"lllllvwxyz\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"jjnnllkkmm\""
+      ],
+      "expected": "\"llnnllllmm\"",
+      "source": "official"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "lessonId": 181841,
+  "title": "꼬리 문자열",
+  "type": "function",
+  "signature": [
+    "str_list",
+    "ex"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[\"abc\", \"def\", \"ghi\"]",
+        "\"ef\""
+      ],
+      "expected": "\"abcghi\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[\"abc\", \"bbc\", \"cbc\"]",
+        "\"c\""
+      ],
+      "expected": "\"\"",
+      "source": "official"
+    },
+    {
+      "name": "모두 포함 안됨",
+      "why": "제외 문자열이 어디에도 없어 전체가 합쳐지는 경우",
+      "args": [
+        "[\"ab\", \"cd\"]",
+        "\"xyz\""
+      ],
+      "expected": "\"abcd\"",
+      "source": "ai"
+    },
+    {
+      "name": "길이 최소 리스트",
+      "why": "str_list 길이 최소값(2) 경계 테스트",
+      "args": [
+        "[\"a\", \"b\"]",
+        "\"a\""
+      ],
+      "expected": "\"b\"",
+      "source": "ai"
+    },
+    {
+      "name": "중복 문자열 포함",
+      "why": "동일한 문자열이 여러 개 있을 때 처리 확인",
+      "args": [
+        "[\"abc\", \"abc\", \"def\"]",
+        "\"abc\""
+      ],
+      "expected": "\"def\"",
+      "source": "ai"
+    },
+    {
+      "name": "ex 길이 최대",
+      "why": "ex의 길이가 최대(5)인 경계 테스트",
+      "args": [
+        "[\"abcde\", \"fghij\", \"klmno\"]",
+        "\"fghij\""
+      ],
+      "expected": "\"abcdeklmno\"",
+      "source": "ai"
+    },
+    {
+      "name": "원소 길이 최대",
+      "why": "str_list 원소 길이가 최대(10)인 경계 테스트",
+      "args": [
+        "[\"aaaaaaaaaa\", \"bbbbbbbbbb\"]",
+        "\"cc\""
+      ],
+      "expected": "\"aaaaaaaaaabbbbbbbbbb\"",
+      "source": "ai"
+    },
+    {
+      "name": "리스트 길이 최대",
+      "why": "str_list 길이 10인 경계값 테스트",
+      "args": [
+        "[\"a\", \"b\", \"c\", \"d\", \"e\", \"f\", \"g\", \"h\", \"i\", \"j\"]",
+        "\"z\""
+      ],
+      "expected": "\"abcdefghij\"",
+      "source": "ai"
+    },
+    {
+      "name": "ex가 전체 문자열과 동일",
+      "why": "ex 길이가 원소 길이와 같은 경계 케이스",
+      "args": [
+        "[\"abcde\", \"fghij\"]",
+        "\"abcde\""
+      ],
+      "expected": "\"fghij\"",
+      "source": "ai"
+    },
+    {
+      "name": "ex 길이 최소",
+      "why": "ex 길이가 1인 최소 경계값",
+      "args": [
+        "[\"apple\", \"banana\", \"cherry\"]",
+        "\"a\""
+      ],
+      "expected": "\"cherry\"",
+      "source": "ai"
+    },
+    {
+      "name": "모든 원소가 ex와 정확히 일치",
+      "why": "부분 문자열이 아닌 완전 일치 케이스에서도 정상 동작 확인",
+      "args": [
+        "[\"ab\", \"ab\", \"cd\"]",
+        "\"ab\""
+      ],
+      "expected": "\"cd\"",
+      "source": "ai"
+    },
+    {
+      "name": "첫 원소만 제외",
+      "why": "제외되는 원소가 앞쪽에 위치할 때의 순서 유지 확인",
+      "args": [
+        "[\"exclude\", \"keep1\", \"keep2\"]",
+        "\"exclude\""
+      ],
+      "expected": "\"keep1keep2\"",
+      "source": "ai"
+    }
+  ]
+}

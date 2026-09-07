@@ -1,0 +1,26 @@
+{
+  "lessonId": 181867,
+  "title": "x 사이의 개수",
+  "type": "function",
+  "signature": [
+    "myString"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"oxooxoxxox\""
+      ],
+      "expected": "[1, 2, 1, 0, 1, 0]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"xabcxdefxghi\""
+      ],
+      "expected": "[0, 3, 3, 3]",
+      "source": "official"
+    }
+  ]
+}

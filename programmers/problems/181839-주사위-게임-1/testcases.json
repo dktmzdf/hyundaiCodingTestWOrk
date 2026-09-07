@@ -1,0 +1,38 @@
+{
+  "lessonId": 181839,
+  "title": "주사위 게임 1",
+  "type": "function",
+  "signature": [
+    "a",
+    "b"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "3",
+        "5"
+      ],
+      "expected": "34",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "6",
+        "1"
+      ],
+      "expected": "14",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "2",
+        "4"
+      ],
+      "expected": "2",
+      "source": "official"
+    }
+  ]
+}

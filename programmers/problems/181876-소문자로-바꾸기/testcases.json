@@ -1,0 +1,26 @@
+{
+  "lessonId": 181876,
+  "title": "소문자로 바꾸기",
+  "type": "function",
+  "signature": [
+    "myString"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"aBcDeFg\""
+      ],
+      "expected": "\"abcdefg\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"aaa\""
+      ],
+      "expected": "\"aaa\"",
+      "source": "official"
+    }
+  ]
+}

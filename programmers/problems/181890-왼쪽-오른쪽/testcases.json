@@ -1,0 +1,26 @@
+{
+  "lessonId": 181890,
+  "title": "왼쪽 오른쪽",
+  "type": "function",
+  "signature": [
+    "str_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[\"u\", \"u\", \"l\", \"r\"]"
+      ],
+      "expected": "[\"u\", \"u\"]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[\"l\"]"
+      ],
+      "expected": "[]",
+      "source": "official"
+    }
+  ]
+}

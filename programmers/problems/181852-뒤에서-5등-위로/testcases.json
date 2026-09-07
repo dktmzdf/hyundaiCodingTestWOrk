@@ -1,0 +1,18 @@
+{
+  "lessonId": 181852,
+  "title": "뒤에서 5등 위로",
+  "type": "function",
+  "signature": [
+    "num_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[12, 4, 15, 46, 38, 1, 14, 56, 32, 10]"
+      ],
+      "expected": "[15, 32, 38, 46, 56]",
+      "source": "official"
+    }
+  ]
+}

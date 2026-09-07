@@ -1,0 +1,29 @@
+{
+  "lessonId": 181840,
+  "title": "정수 찾기",
+  "type": "function",
+  "signature": [
+    "num_list",
+    "n"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[1, 2, 3, 4, 5]",
+        "3"
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[15, 98, 23, 2, 15]",
+        "20"
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}

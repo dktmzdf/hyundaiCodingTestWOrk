@@ -1,0 +1,29 @@
+{
+  "lessonId": 181835,
+  "title": "조건에 맞게 수열 변환하기 3",
+  "type": "function",
+  "signature": [
+    "arr",
+    "k"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[1, 2, 3, 100, 99, 98]",
+        "3"
+      ],
+      "expected": "[3, 6, 9, 300, 297, 294]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[1, 2, 3, 100, 99, 98]",
+        "2"
+      ],
+      "expected": "[3, 4, 5, 102, 101, 100]",
+      "source": "official"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "lessonId": 181878,
+  "title": "원하는 문자열 찾기",
+  "type": "function",
+  "signature": [
+    "myString",
+    "pat"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"AbCdEfG\"",
+        "\"aBc\""
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"aaAA\"",
+        "\"aaaaa\""
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}

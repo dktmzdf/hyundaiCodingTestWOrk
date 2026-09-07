@@ -1,0 +1,18 @@
+{
+  "lessonId": 181880,
+  "title": "1로 만들기",
+  "type": "function",
+  "signature": [
+    "num_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[12, 4, 15, 1, 14]"
+      ],
+      "expected": "11",
+      "source": "official"
+    }
+  ]
+}

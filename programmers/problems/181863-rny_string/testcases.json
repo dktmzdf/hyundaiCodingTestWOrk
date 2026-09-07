@@ -1,0 +1,42 @@
+{
+  "lessonId": 181863,
+  "title": "rny_string",
+  "type": "function",
+  "signature": [
+    "rny_string"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"masterpiece\""
+      ],
+      "expected": "\"rnasterpiece\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"programmers\""
+      ],
+      "expected": "\"prograrnrners\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "\"jerry\""
+      ],
+      "expected": "\"jerry\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 4",
+      "args": [
+        "\"burn\""
+      ],
+      "expected": "\"burn\"",
+      "source": "official"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "lessonId": 181894,
+  "title": "2의 영역",
+  "type": "function",
+  "signature": [
+    "arr"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[1, 2, 1, 4, 5, 2, 9]"
+      ],
+      "expected": "[2, 1, 4, 5, 2]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[1, 2, 1]"
+      ],
+      "expected": "[2]",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "[1, 1, 1]"
+      ],
+      "expected": "[-1]",
+      "source": "official"
+    },
+    {
+      "name": "예제 4",
+      "args": [
+        "[1, 2, 1, 2, 1, 10, 2, 1]"
+      ],
+      "expected": "[2, 1, 2, 1, 10, 2]",
+      "source": "official"
+    }
+  ]
+}

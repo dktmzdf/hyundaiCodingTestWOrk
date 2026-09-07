@@ -1,0 +1,29 @@
+{
+  "lessonId": 181838,
+  "title": "날짜 비교하기",
+  "type": "function",
+  "signature": [
+    "date1",
+    "date2"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[2021, 12, 28]",
+        "[2021, 12, 29]"
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[1024, 10, 24]",
+        "[1024, 10, 24]"
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "lessonId": 181837,
+  "title": "커피 심부름",
+  "type": "function",
+  "signature": [
+    "order"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[\"cafelatte\", \"americanoice\", \"hotcafelatte\", \"anything\"]"
+      ],
+      "expected": "19000",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[\"americanoice\", \"americano\", \"iceamericano\"]"
+      ],
+      "expected": "13500",
+      "source": "official"
+    }
+  ]
+}

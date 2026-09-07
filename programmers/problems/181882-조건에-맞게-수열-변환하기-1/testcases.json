@@ -1,0 +1,18 @@
+{
+  "lessonId": 181882,
+  "title": "조건에 맞게 수열 변환하기 1",
+  "type": "function",
+  "signature": [
+    "arr"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[1, 2, 3, 100, 99, 98]"
+      ],
+      "expected": "[2, 2, 6, 50, 99, 49]",
+      "source": "official"
+    }
+  ]
+}

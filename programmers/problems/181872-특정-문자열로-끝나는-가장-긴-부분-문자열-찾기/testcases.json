@@ -1,0 +1,29 @@
+{
+  "lessonId": 181872,
+  "title": "특정 문자열로 끝나는 가장 긴 부분 문자열 찾기",
+  "type": "function",
+  "signature": [
+    "myString",
+    "pat"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"AbCdEFG\"",
+        "\"dE\""
+      ],
+      "expected": "\"AbCdE\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"AAAAaaaa\"",
+        "\"a\""
+      ],
+      "expected": "\"AAAAaaaa\"",
+      "source": "official"
+    }
+  ]
+}

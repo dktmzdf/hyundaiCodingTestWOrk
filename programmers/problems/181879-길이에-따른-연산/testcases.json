@@ -1,0 +1,26 @@
+{
+  "lessonId": 181879,
+  "title": "길이에 따른 연산",
+  "type": "function",
+  "signature": [
+    "num_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[3, 4, 5, 2, 5, 4, 6, 7, 3, 7, 2, 2, 1]"
+      ],
+      "expected": "51",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[2, 3, 4, 5]"
+      ],
+      "expected": "120",
+      "source": "official"
+    }
+  ]
+}

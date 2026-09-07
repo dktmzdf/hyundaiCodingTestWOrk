@@ -1,0 +1,29 @@
+{
+  "lessonId": 181871,
+  "title": "문자열이 몇 번 등장하는지 세기",
+  "type": "function",
+  "signature": [
+    "myString",
+    "pat"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"banana\"",
+        "\"ana\""
+      ],
+      "expected": "2",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"aaaa\"",
+        "\"aa\""
+      ],
+      "expected": "3",
+      "source": "official"
+    }
+  ]
+}

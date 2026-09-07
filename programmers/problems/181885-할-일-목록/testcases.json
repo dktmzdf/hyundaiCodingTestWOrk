@@ -1,0 +1,20 @@
+{
+  "lessonId": 181885,
+  "title": "할 일 목록",
+  "type": "function",
+  "signature": [
+    "todo_list",
+    "finished"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[\"problemsolving\", \"practiceguitar\", \"swim\", \"studygraph\"]",
+        "[true, false, true, false]"
+      ],
+      "expected": "[\"practiceguitar\", \"studygraph\"]",
+      "source": "official"
+    }
+  ]
+}

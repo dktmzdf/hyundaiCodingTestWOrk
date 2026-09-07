@@ -1,0 +1,20 @@
+{
+  "lessonId": 181893,
+  "title": "배열 조각하기",
+  "type": "function",
+  "signature": [
+    "arr",
+    "query"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[0, 1, 2, 3, 4, 5]",
+        "[4, 1, 2]"
+      ],
+      "expected": "[1, 2, 3]",
+      "source": "official"
+    }
+  ]
+}

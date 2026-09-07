@@ -1,0 +1,18 @@
+{
+  "lessonId": 181855,
+  "title": "문자열 묶기",
+  "type": "function",
+  "signature": [
+    "strArr"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[\"a\",\"bc\",\"d\",\"efg\",\"hi\"]"
+      ],
+      "expected": "2",
+      "source": "official"
+    }
+  ]
+}

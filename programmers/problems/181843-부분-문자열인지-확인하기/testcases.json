@@ -1,0 +1,79 @@
+{
+  "lessonId": 181843,
+  "title": "부분 문자열인지 확인하기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "target"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"banana\"",
+        "\"ana\""
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"banana\"",
+        "\"wxyz\""
+      ],
+      "expected": "0",
+      "source": "official"
+    },
+    {
+      "name": "길이1 일치",
+      "why": "최소 길이 및 단일 문자 매칭 경계값",
+      "args": [
+        "\"a\"",
+        "\"a\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    },
+    {
+      "name": "target이 my_string보다 김",
+      "why": "target 길이가 더 길면 항상 부분문자열 불가능",
+      "args": [
+        "\"abc\"",
+        "\"abcd\""
+      ],
+      "expected": "0",
+      "source": "ai"
+    },
+    {
+      "name": "완전 동일 문자열",
+      "why": "my_string과 target이 같은 경우 경계 케이스",
+      "args": [
+        "\"hello\"",
+        "\"hello\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    },
+    {
+      "name": "반복된 패턴 중 일부만 불일치",
+      "why": "유사하지만 다른 문자로 인해 실패하는 경우",
+      "args": [
+        "\"aaaab\"",
+        "\"aaab\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    },
+    {
+      "name": "target이 끝부분과 일치",
+      "why": "문자열 끝쪽 부분 매칭 확인",
+      "args": [
+        "\"abcdef\"",
+        "\"def\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    }
+  ]
+}

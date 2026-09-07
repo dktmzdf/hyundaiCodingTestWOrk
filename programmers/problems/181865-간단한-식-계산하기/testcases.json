@@ -1,0 +1,34 @@
+{
+  "lessonId": 181865,
+  "title": "간단한 식 계산하기",
+  "type": "function",
+  "signature": [
+    "binomial"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"43 + 12\""
+      ],
+      "expected": "55",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"0 - 7777\""
+      ],
+      "expected": "-7777",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "\"40000 * 40000\""
+      ],
+      "expected": "1600000000",
+      "source": "official"
+    }
+  ]
+}

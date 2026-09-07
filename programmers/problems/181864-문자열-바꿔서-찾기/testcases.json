@@ -1,0 +1,147 @@
+{
+  "lessonId": 181864,
+  "title": "문자열 바꿔서 찾기",
+  "type": "function",
+  "signature": [
+    "myString",
+    "pat"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"ABBAA\"",
+        "\"AABB\""
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"ABAB\"",
+        "\"ABAB\""
+      ],
+      "expected": "0",
+      "source": "official"
+    },
+    {
+      "name": "길이1 매치",
+      "why": "최소 길이 경계값과 단일 문자 매칭 확인",
+      "args": [
+        "\"A\"",
+        "\"B\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    },
+    {
+      "name": "길이1 불일치",
+      "why": "최소 길이에서 매칭 실패 케이스",
+      "args": [
+        "\"A\"",
+        "\"A\""
+      ],
+      "expected": "0",
+      "source": "ai"
+    },
+    {
+      "name": "동일길이전체매치",
+      "why": "myString과 pat 길이가 같은 경계 케이스",
+      "args": [
+        "\"AAAA\"",
+        "\"BBBB\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    },
+    {
+      "name": "pat이 더 긴 경우",
+      "why": "pat 길이가 myString보다 길면 항상 0이어야 함",
+      "args": [
+        "\"AB\"",
+        "\"AABB\""
+      ],
+      "expected": "0",
+      "source": "ai"
+    },
+    {
+      "name": "반복패턴 부분일치",
+      "why": "중복 문자로 이루어진 문자열에서 변환 후 부분일치 여부 확인",
+      "args": [
+        "\"AAABBB\"",
+        "\"BBAA\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    },
+    {
+      "name": "내 케이스 1",
+      "source": "user",
+      "args": [
+        "\"ABA\"",
+        "\"AA\""
+      ],
+      "expected": "0"
+    },
+    {
+      "name": "내 케이스 2",
+      "source": "user",
+      "args": [
+        "\"AAABB\"",
+        "\"BBB\""
+      ],
+      "expected": "1"
+    },
+    {
+      "name": "최대길이 pat10 매치",
+      "why": "pat 최대 길이 경계값 및 전체 일치 확인",
+      "args": [
+        "\"BABABABABA\"",
+        "\"ABABABABAB\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    },
+    {
+      "name": "단일문자 반복 불일치",
+      "why": "모든 문자가 같을 때 다른 문자 pat 탐색",
+      "args": [
+        "\"AAAAA\"",
+        "\"AB\""
+      ],
+      "expected": "0",
+      "source": "ai"
+    },
+    {
+      "name": "pat과 myString 길이 동일 불일치",
+      "why": "전체 변환 후에도 불일치하는 경계 케이스",
+      "args": [
+        "\"AABB\"",
+        "\"AABB\""
+      ],
+      "expected": "0",
+      "source": "ai"
+    },
+    {
+      "name": "긴 문자열 끝부분 매치",
+      "why": "패턴이 문자열 끝쪽에서만 매치되는 경우",
+      "args": [
+        "\"AAAAAAAAAABABB\"",
+        "\"ABAA\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    },
+    {
+      "name": "단일문자 pat 매치",
+      "why": "pat 길이1과 myString 전체가 다른 문자인 경우",
+      "args": [
+        "\"BBBBB\"",
+        "\"B\""
+      ],
+      "expected": "1",
+      "source": "ai"
+    }
+  ]
+}

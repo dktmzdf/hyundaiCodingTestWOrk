@@ -1,0 +1,29 @@
+{
+  "lessonId": 181892,
+  "title": "n 번째 원소부터",
+  "type": "function",
+  "signature": [
+    "num_list",
+    "n"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[2, 1, 6]",
+        "3"
+      ],
+      "expected": "[6]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[5, 2, 1, 7, 5]",
+        "2"
+      ],
+      "expected": "[2, 1, 7, 5]",
+      "source": "official"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "lessonId": 181886,
+  "title": "5명씩",
+  "type": "function",
+  "signature": [
+    "names"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[\"nami\", \"ahri\", \"jayce\", \"garen\", \"ivern\", \"vex\", \"jinx\"]"
+      ],
+      "expected": "[\"nami\", \"vex\"]",
+      "source": "official"
+    }
+  ]
+}

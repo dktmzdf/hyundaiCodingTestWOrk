@@ -1,0 +1,71 @@
+{
+  "lessonId": 181866,
+  "title": "문자열 잘라서 정렬하기",
+  "type": "function",
+  "signature": [
+    "myString"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"axbxcxdx\""
+      ],
+      "expected": "[\"a\",\"b\",\"c\",\"d\"]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"dxccxbbbxaaaa\""
+      ],
+      "expected": "[\"aaaa\",\"bbb\",\"cc\",\"d\"]",
+      "source": "official"
+    },
+    {
+      "name": "모두x없음",
+      "why": "구분자 없이 한 단어만 있는 경우",
+      "args": [
+        "\"hello\""
+      ],
+      "expected": "[\"hello\"]",
+      "source": "ai"
+    },
+    {
+      "name": "길이1",
+      "why": "최소 길이 문자열 처리",
+      "args": [
+        "\"a\""
+      ],
+      "expected": "[\"a\"]",
+      "source": "ai"
+    },
+    {
+      "name": "연속x빈문자열제거",
+      "why": "빈 문자열이 결과에서 제외되는지 확인",
+      "args": [
+        "\"xxaxxbxx\""
+      ],
+      "expected": "[\"a\", \"b\"]",
+      "source": "ai"
+    },
+    {
+      "name": "전체x",
+      "why": "전체가 x로만 이루어져 모든 조각이 빈 문자열인 경우",
+      "args": [
+        "\"xxxx\""
+      ],
+      "expected": "[]",
+      "source": "ai"
+    },
+    {
+      "name": "역순정렬필요",
+      "why": "이미 역순으로 되어있어 정렬 로직 검증",
+      "args": [
+        "\"cxbxa\""
+      ],
+      "expected": "[\"a\", \"b\", \"c\"]",
+      "source": "ai"
+    }
+  ]
+}

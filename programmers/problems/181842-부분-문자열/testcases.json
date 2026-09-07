@@ -1,0 +1,29 @@
+{
+  "lessonId": 181842,
+  "title": "부분 문자열",
+  "type": "function",
+  "signature": [
+    "str1",
+    "str2"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"abc\"",
+        "\"aabcc\""
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"tbt\"",
+        "\"tbbttb\""
+      ],
+      "expected": "0",
+      "source": "official"
+    }
+  ]
+}

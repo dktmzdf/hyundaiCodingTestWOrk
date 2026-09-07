@@ -1,0 +1,26 @@
+{
+  "lessonId": 181849,
+  "title": "문자열 정수의 합",
+  "type": "function",
+  "signature": [
+    "num_str"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"123456789\""
+      ],
+      "expected": "45",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"1000000\""
+      ],
+      "expected": "1",
+      "source": "official"
+    }
+  ]
+}

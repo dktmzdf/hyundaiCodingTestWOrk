@@ -1,0 +1,26 @@
+{
+  "lessonId": 181850,
+  "title": "정수 부분",
+  "type": "function",
+  "signature": [
+    "flo"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "1.42"
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "69.32"
+      ],
+      "expected": "69",
+      "source": "official"
+    }
+  ]
+}

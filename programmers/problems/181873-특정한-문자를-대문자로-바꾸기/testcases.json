@@ -1,0 +1,29 @@
+{
+  "lessonId": 181873,
+  "title": "특정한 문자를 대문자로 바꾸기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "alp"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"programmers\"",
+        "\"p\""
+      ],
+      "expected": "\"Programmers\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"lowercase\"",
+        "\"x\""
+      ],
+      "expected": "\"lowercase\"",
+      "source": "official"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "lessonId": 181845,
+  "title": "문자열로 변환",
+  "type": "function",
+  "signature": [
+    "n"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "123"
+      ],
+      "expected": "\"123\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "2573"
+      ],
+      "expected": "\"2573\"",
+      "source": "official"
+    }
+  ]
+}

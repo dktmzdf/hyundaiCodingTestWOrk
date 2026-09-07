@@ -1,0 +1,26 @@
+{
+  "lessonId": 181868,
+  "title": "공백으로 구분하기 2",
+  "type": "function",
+  "signature": [
+    "my_string"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\" i love you\""
+      ],
+      "expected": "[\"i\", \"love\", \"you\"]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\" programmers \""
+      ],
+      "expected": "[\"programmers\"]",
+      "source": "official"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "lessonId": 181851,
+  "title": "전국 대회 선발 고사",
+  "type": "function",
+  "signature": [
+    "rank",
+    "attendance"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[3, 7, 2, 5, 4, 6, 1]",
+        "[false, true, true, true, true, false, false]"
+      ],
+      "expected": "20403",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[1, 2, 3]",
+        "[true, true, true]"
+      ],
+      "expected": "102",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "[6, 1, 5, 2, 3, 4]",
+        "[true, false, true, false, false, true]"
+      ],
+      "expected": "50200",
+      "source": "official"
+    }
+  ]
+}

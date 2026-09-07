@@ -1,0 +1,20 @@
+{
+  "lessonId": 181883,
+  "title": "수열과 구간 쿼리 1",
+  "type": "function",
+  "signature": [
+    "arr",
+    "queries"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[0, 1, 2, 3, 4]",
+        "[[0, 1],[1, 2],[2, 3]]"
+      ],
+      "expected": "[1, 3, 4, 4, 4]",
+      "source": "official"
+    }
+  ]
+}

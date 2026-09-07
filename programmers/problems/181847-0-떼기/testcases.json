@@ -1,0 +1,26 @@
+{
+  "lessonId": 181847,
+  "title": "0 떼기",
+  "type": "function",
+  "signature": [
+    "n_str"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"0010\""
+      ],
+      "expected": "\"10\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"854020\""
+      ],
+      "expected": "\"854020\"",
+      "source": "official"
+    }
+  ]
+}

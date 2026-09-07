@@ -1,0 +1,29 @@
+{
+  "lessonId": 181889,
+  "title": "n 번째 원소까지",
+  "type": "function",
+  "signature": [
+    "num_list",
+    "n"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[2, 1, 6]",
+        "1"
+      ],
+      "expected": "[2]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[5, 2, 1, 7, 5]",
+        "3"
+      ],
+      "expected": "[5, 2, 1]",
+      "source": "official"
+    }
+  ]
+}
