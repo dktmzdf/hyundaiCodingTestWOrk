@@ -1,6 +1,9 @@
 # 별도 저장소로 관리 중
 Programemers_ssss/
 
+# 압축 파일은 추적하지 않음
+*.zip
+
 # programmers는 각 문제 폴더의 solution.py / testcases.json만 추적
 programmers/*
 !programmers/problems/
