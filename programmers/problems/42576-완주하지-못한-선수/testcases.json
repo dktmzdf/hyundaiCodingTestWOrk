@@ -1,0 +1,38 @@
+{
+  "lessonId": 42576,
+  "title": "완주하지 못한 선수",
+  "type": "function",
+  "signature": [
+    "participant",
+    "completion"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[\"leo\", \"kiki\", \"eden\"]",
+        "[\"eden\", \"kiki\"]"
+      ],
+      "expected": "\"leo\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[\"marina\", \"josipa\", \"nikola\", \"vinko\", \"filipa\"]",
+        "[\"josipa\", \"filipa\", \"marina\", \"nikola\"]"
+      ],
+      "expected": "\"vinko\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "[\"mislav\", \"stanko\", \"mislav\", \"ana\"]",
+        "[\"stanko\", \"ana\", \"mislav\"]"
+      ],
+      "expected": "\"mislav\"",
+      "source": "official"
+    }
+  ]
+}
