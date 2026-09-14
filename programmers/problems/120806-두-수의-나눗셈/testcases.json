@@ -1,0 +1,38 @@
+{
+  "lessonId": 120806,
+  "title": "두 수의 나눗셈",
+  "type": "function",
+  "signature": [
+    "num1",
+    "num2"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "3",
+        "2"
+      ],
+      "expected": "1500",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "7",
+        "3"
+      ],
+      "expected": "2333",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "1",
+        "16"
+      ],
+      "expected": "62",
+      "source": "official"
+    }
+  ]
+}
