@@ -1,0 +1,42 @@
+{
+  "lessonId": 12909,
+  "title": "올바른 괄호",
+  "type": "function",
+  "signature": [
+    "s"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"()()\""
+      ],
+      "expected": "true",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"(())()\""
+      ],
+      "expected": "true",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "\")()(\""
+      ],
+      "expected": "false",
+      "source": "official"
+    },
+    {
+      "name": "예제 4",
+      "args": [
+        "\"(()(\""
+      ],
+      "expected": "false",
+      "source": "official"
+    }
+  ]
+}
