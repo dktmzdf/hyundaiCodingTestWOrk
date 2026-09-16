@@ -1,0 +1,29 @@
+{
+  "lessonId": 42587,
+  "title": "프로세스",
+  "type": "function",
+  "signature": [
+    "priorities",
+    "location"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[2, 1, 3, 2]",
+        "2"
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[1, 1, 9, 1, 1, 1]",
+        "0"
+      ],
+      "expected": "5",
+      "source": "official"
+    }
+  ]
+}
