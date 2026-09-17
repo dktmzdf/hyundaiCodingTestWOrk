@@ -1,0 +1,20 @@
+{
+  "lessonId": 42748,
+  "title": "K번째수",
+  "type": "function",
+  "signature": [
+    "array",
+    "commands"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[1, 5, 2, 6, 3, 7, 4]",
+        "[[2, 5, 3], [4, 4, 1], [1, 7, 3]]"
+      ],
+      "expected": "[5, 6, 3]",
+      "source": "official"
+    }
+  ]
+}
