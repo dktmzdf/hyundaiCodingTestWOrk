@@ -1,0 +1,29 @@
+{
+  "lessonId": 120805,
+  "title": "몫 구하기",
+  "type": "function",
+  "signature": [
+    "num1",
+    "num2"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "10",
+        "5"
+      ],
+      "expected": "2",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "7",
+        "2"
+      ],
+      "expected": "3",
+      "source": "official"
+    }
+  ]
+}
