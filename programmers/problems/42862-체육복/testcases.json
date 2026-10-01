@@ -1,0 +1,42 @@
+{
+  "lessonId": 42862,
+  "title": "체육복",
+  "type": "function",
+  "signature": [
+    "n",
+    "lost",
+    "reserve"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "5",
+        "[2, 4]",
+        "[1, 3, 5]"
+      ],
+      "expected": "5",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "5",
+        "[2, 4]",
+        "[3]"
+      ],
+      "expected": "4",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "3",
+        "[3]",
+        "[1]"
+      ],
+      "expected": "2",
+      "source": "official"
+    }
+  ]
+}
