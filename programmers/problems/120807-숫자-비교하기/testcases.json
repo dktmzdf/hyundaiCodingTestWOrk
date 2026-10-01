@@ -1,0 +1,38 @@
+{
+  "lessonId": 120807,
+  "title": "숫자 비교하기",
+  "type": "function",
+  "signature": [
+    "num1",
+    "num2"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "2",
+        "3"
+      ],
+      "expected": "-1",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "11",
+        "11"
+      ],
+      "expected": "1",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "7",
+        "99"
+      ],
+      "expected": "-1",
+      "source": "official"
+    }
+  ]
+}
