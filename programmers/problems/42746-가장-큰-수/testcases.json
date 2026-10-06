@@ -1,0 +1,34 @@
+{
+  "lessonId": 42746,
+  "title": "가장 큰 수",
+  "type": "function",
+  "signature": [
+    "numbers"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[6, 10, 2]"
+      ],
+      "expected": "\"6210\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[3, 30, 34, 5, 9]"
+      ],
+      "expected": "\"9534330\"",
+      "source": "official"
+    },
+    {
+      "name": "내 케이스 1",
+      "source": "user",
+      "args": [
+        "[6, 2, 90]"
+      ],
+      "expected": "'9062'"
+    }
+  ]
+}
