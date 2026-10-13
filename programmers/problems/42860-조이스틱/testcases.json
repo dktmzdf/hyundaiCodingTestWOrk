@@ -1,0 +1,95 @@
+{
+  "lessonId": 42860,
+  "title": "조이스틱",
+  "type": "function",
+  "signature": [
+    "name"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"JEROEN\""
+      ],
+      "expected": "56",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"JAN\""
+      ],
+      "expected": "23",
+      "source": "official"
+    },
+    {
+      "name": "내 케이스 1",
+      "source": "user",
+      "args": [
+        "\"B\""
+      ],
+      "expected": "1"
+    },
+    {
+      "name": "내 케이스 2",
+      "source": "user",
+      "args": [
+        "\"A\""
+      ],
+      "expected": "0"
+    },
+    {
+      "name": "내 케이스 3",
+      "source": "user",
+      "args": [
+        "\"BAAAAAAAAAAAAAAZ\""
+      ],
+      "expected": "3"
+    },
+    {
+      "name": "최대 길이 전부 Z",
+      "why": "길이 20 경계에서 위아래 조작은 글자당 1번이고, 오른쪽으로만 19칸 이동하는 경우를 확인한다",
+      "args": [
+        "\"ZZZZZZZZZZZZZZZZZZZZ\""
+      ],
+      "expected": "39",
+      "source": "ai"
+    },
+    {
+      "name": "최대 길이 전부 N",
+      "why": "N은 위로 가든 아래로 가든 13번으로 같은 최대 조작 수이고, 최댓값 경계(260+19)를 확인한다",
+      "args": [
+        "\"NNNNNNNNNNNNNNNNNNNN\""
+      ],
+      "expected": "279",
+      "source": "ai"
+    },
+    {
+      "name": "앞이 A이고 끝만 B",
+      "why": "시작 위치가 A일 때 왼쪽으로 한 칸 돌아가는 것(1)이 오른쪽 2칸 이동보다 짧은지 확인한다",
+      "args": [
+        "\"AAB\""
+      ],
+      "expected": "2",
+      "source": "ai"
+    },
+    {
+      "name": "중간 A 구간 뒤 되돌아가기",
+      "why": "오른쪽으로 갔다가 왼쪽으로 돌아 마지막 글자로 가는 경로(3)가 직진(5)보다 짧은 경우를 확인한다",
+      "args": [
+        "\"ABAAAB\""
+      ],
+      "expected": "5",
+      "source": "ai"
+    },
+    {
+      "name": "왼쪽 먼저 갔다 오는 경로",
+      "why": "끝 글자를 먼저 들렀다가 오른쪽으로 되돌아오는 경로(6)가 오른쪽 먼저 가는 경로(9)보다 짧은 경우를 확인한다",
+      "args": [
+        "\"BBBBBAAAAAAAAAAB\""
+      ],
+      "expected": "12",
+      "source": "ai"
+    }
+  ]
+}
