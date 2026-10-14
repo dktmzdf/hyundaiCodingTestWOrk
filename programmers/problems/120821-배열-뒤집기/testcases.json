@@ -1,0 +1,34 @@
+{
+  "lessonId": 120821,
+  "title": "배열 뒤집기",
+  "type": "function",
+  "signature": [
+    "num_list"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[1, 2, 3, 4, 5]"
+      ],
+      "expected": "[5, 4, 3, 2, 1]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[1, 1, 1, 1, 1, 2]"
+      ],
+      "expected": "[2, 1, 1, 1, 1, 1]",
+      "source": "official"
+    },
+    {
+      "name": "예제 3",
+      "args": [
+        "[1, 0, 1, 1, 1, 3, 5]"
+      ],
+      "expected": "[5, 3, 1, 1, 1, 0, 1]",
+      "source": "official"
+    }
+  ]
+}
