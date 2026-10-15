@@ -1,0 +1,26 @@
+{
+  "lessonId": 120822,
+  "title": "뒤집힌 문자열",
+  "type": "function",
+  "signature": [
+    "my_string"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"jaron\""
+      ],
+      "expected": "\"noraj\"",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "\"bread\""
+      ],
+      "expected": "\"daerb\"",
+      "source": "official"
+    }
+  ]
+}
