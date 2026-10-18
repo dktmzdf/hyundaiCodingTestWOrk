@@ -1,0 +1,20 @@
+{
+  "lessonId": 120825,
+  "title": "문자 반복 출력하기",
+  "type": "function",
+  "signature": [
+    "my_string",
+    "n"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "\"hello\"",
+        "3"
+      ],
+      "expected": "\"hhheeellllllooo\"",
+      "source": "official"
+    }
+  ]
+}
