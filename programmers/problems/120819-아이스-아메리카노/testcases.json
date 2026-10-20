@@ -1,0 +1,26 @@
+{
+  "lessonId": 120819,
+  "title": "아이스 아메리카노",
+  "type": "function",
+  "signature": [
+    "money"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "5,500"
+      ],
+      "expected": "[1, 0]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "15,000"
+      ],
+      "expected": "[2, 4000]",
+      "source": "official"
+    }
+  ]
+}

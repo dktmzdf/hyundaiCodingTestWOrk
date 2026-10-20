@@ -1,0 +1,26 @@
+{
+  "lessonId": 120820,
+  "title": "나이 출력",
+  "type": "function",
+  "signature": [
+    "age"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "40"
+      ],
+      "expected": "1983",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "23"
+      ],
+      "expected": "2000",
+      "source": "official"
+    }
+  ]
+}
