@@ -1,0 +1,26 @@
+{
+  "lessonId": 120854,
+  "title": "배열 원소의 길이",
+  "type": "function",
+  "signature": [
+    "strlist"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "[\"We\", \"are\", \"the\", \"world!\"]"
+      ],
+      "expected": "[2, 3, 3, 6]",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "[\"I\", \"Love\", \"Programmers.\"]"
+      ],
+      "expected": "[1, 4, 12]",
+      "source": "official"
+    }
+  ]
+}
