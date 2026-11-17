@@ -1,0 +1,26 @@
+{
+  "lessonId": 12931,
+  "title": "자릿수 더하기",
+  "type": "function",
+  "signature": [
+    "n"
+  ],
+  "cases": [
+    {
+      "name": "예제 1",
+      "args": [
+        "123"
+      ],
+      "expected": "6",
+      "source": "official"
+    },
+    {
+      "name": "예제 2",
+      "args": [
+        "987"
+      ],
+      "expected": "24",
+      "source": "official"
+    }
+  ]
+}
